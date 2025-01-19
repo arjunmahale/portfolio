@@ -26,9 +26,7 @@ Version      : 1.0
 * ----------------------------------------------------------------------------------------
 */
 body {
-color:#484848;margin: 0;
-        padding: 0;
-        overflow-x: hidden;
+color:#484848;
 font-family: 'Zilla Slab', serif;
 font-size: 18px;
 font-weight: 400;
@@ -40,7 +38,9 @@ background-size: cover;
 
 
 html,
-body { height: 100%;position:relative;  }
+body { height: 100%;position:relative;margin: 0;
+        padding: 0;
+        overflow-x: hidden;  }
 h1,
 h2,
 h3,
