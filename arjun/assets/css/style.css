@@ -25,6 +25,9 @@ Version      : 1.0
 * 01.GENERAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+*{
+	box-sizing:border-box;
+}
 body {
 color:#484848;
 font-family: 'Zilla Slab', serif;
